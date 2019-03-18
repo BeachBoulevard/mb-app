@@ -1,0 +1,11 @@
+header h1 a {        
+color: red; 
+}
+
+ul li {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+
+}

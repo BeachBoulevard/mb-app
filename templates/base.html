@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+    <head>
+        <title>Django Message Board</title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        
+    </head>
+    <body>
+        <script src="{% static 'js/image-trail.js' %}"></script>
+        <img src="{% static "img/logo.png" %}" alt="My image"/>
+        <header>
+            <h1><a href="{% url 'home' %}">Django Message Board</a></h1>
+        </header>
+
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+
+</html>
